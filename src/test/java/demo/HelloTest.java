@@ -16,7 +16,7 @@ public class HelloTest {
 
     @Test
     public void shouldGreetingWithPassingName() throws Exception {
-        assertEquals(hello.greeting("Freewind"), "Hello, Freewind!");
+        assertEquals("Hello, Freewind!", hello.greeting("Freewind"));
     }
 
 }
